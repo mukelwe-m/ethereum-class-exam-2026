@@ -169,7 +169,7 @@ Press **Deploy**.
 
 Under **Deployed Contracts**, expand your **token A** and call `transfer` with:
 
-- `to`: your `Task3Liquidity` address
+- `to`: your `Task3Liquidity` address -> `0x0fC5025C764cE34df352757e82f7B5c4Df39A836`
 - `amount`: the Task 3 send amount from your sheet, which is half your supply
 
 Do the same on your **token B**.
