@@ -227,13 +227,17 @@ Task3 address 0x0fC5025C764cE34df352757e82f7B5c4Df39A836
 Press **Deploy**.
 
 **Send it your tokens too**, the same way as Task 3: call `transfer` on token A and on token B,
-this time to your `Task4Swap` address, using the Task 4 send amount from your sheet. That is the
+this time to your `Task4Swap` address -> `0x9d83e140330758a8fFD07F8Bd73e86ebcA8a5692`, using the Task 4 send amount from your sheet. That is the
 other half of your supply, so both contracts end up funded and your own balance ends at zero.
 
 **Work out what you expect.** Your sheet gives you a swap input amount and a direction. Before you
 run anything, work out roughly how much you expect to get back. Your starting price tells you the
 rough exchange rate, and the fee tier tells you what comes off the top. You do not have to be
 exact, but you do need a number and a reason for it.
+- Kudu points is token A, A is currency0 -> because it has the lower address
+- fee is 10000 -> 1%
+- 1 A is 5.675 B
+- Expected amount =  5.675 VAAL - 1% = 5.56875 VAAL
 
 **Call `recordPrediction`** with that number, written in the same units as everything else, so
 18 decimals. If you expect about 3 tokens back, that is `3000000000000000000`.
