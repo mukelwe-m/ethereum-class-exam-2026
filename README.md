@@ -129,11 +129,11 @@ choose which one becomes `currency0`. Your code picks the right one in `TODO 2.1
 **Record these:**
 
 ```
-alphaIsCurrency0        ______________________________________
-poolId                0x ______________________________________
-startingSqrtPriceX96    ______________________________________
-tick after openPool     ______________________________________
-Task2Pool address     0x ______________________________________
+alphaIsCurrency0        true
+poolId                0x092de0e5c15aa6a5575581c311df8facb3c4dbf42ba9a8791a51cb3499bb960e
+startingSqrtPriceX96    187906086281285948389810351177
+tick after openPool     10
+Task2Pool address     0xd2a5bC10698FD955D1Fe6cb468a17809A08fd005
 ```
 
 *Remember to get the address of the deployed contract, click the copy icon next to the address in the **Deployed Contracts** section.*
