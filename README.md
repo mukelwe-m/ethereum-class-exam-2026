@@ -84,8 +84,8 @@ Deployment two, your token B: same again, with token B's name and symbol and ini
 recover if you lose them. (Replace the underscores in the table below with your addresses, the 0x is just a hint at what the address should look like, so remove it too before you paste.)
 
 ```
-Token A address 0x ______________________________________
-Token B address 0x ______________________________________
+Token A address 0x358AA13c52544ECCEF6B0ADD0f801012ADAD5eE3
+Token B address 0x9D7f74d0C41E726EC95884E0e97Fa6129e3b5E99
 ```
 
 ---
