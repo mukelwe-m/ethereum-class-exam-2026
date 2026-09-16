@@ -258,9 +258,9 @@ of the token, the same as everything else.
 **Record these:**
 
 ```
-predicted output    ______________________________________
-actual output       ______________________________________
-Task4 address     0x ______________________________________
+predicted output    5568750000000000000
+actual output       5567442769357884873
+Task4 address     0x9d83e140330758a8fFD07F8Bd73e86ebcA8a5692
 ```
 
 *Remember to get the address of the deployed contract, click the copy icon next to the address in the **Deployed Contracts** section.*
